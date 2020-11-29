@@ -27,5 +27,5 @@ Proceeds as follows:
 
 # Info / Questions
 
-- [Github](/Duhhvonte)
+- [Github]((https:/github.com/Duhhvonte)
 - devonte.letts@gmail.com
