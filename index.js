@@ -75,6 +75,8 @@ highScoresButton.addEventListener("click", displayScores);
 //function to start the game
 
 function startGame() {
+
+    timer = 90;
   
     qNumber = 0;
     
@@ -133,6 +135,7 @@ function startClock() {
   countdown.innerHTML = "Time Remaining: " + timer;
   if (timer <= 0) {
     gameOver();
+    showResults();
   } else {
     timer -= 1;
     runningTimer = setTimeout(startClock, 1000);
@@ -164,7 +167,7 @@ function selectAnswer(e) {
     
         showQuestion(questions[qNumber]);
     
-        console.log(score);
+        
     }
 }
 
@@ -183,8 +186,6 @@ function clearQuestion() {
 
 function gameOver() {
   
-    timer = 90;
-  
     score = 0;
 
     clearInterval(runningTimer);
@@ -194,10 +195,6 @@ function gameOver() {
     clearQuestion();
   
     showResults();
-  
-    startButton.innerText = "Restart";
-  
-    startButton.classList.remove("hide");
   
 }
 

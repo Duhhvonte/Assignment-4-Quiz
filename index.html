@@ -7,36 +7,33 @@
     <title>Javascript Quiz</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <main class="quizArea">
-        
-        <header class="mainHeader">
-            <h1>Astronomy Quiz</h1>
-                <section class="scores">
-                    <div id="scoreArea" class="hide"></div>
-                </section>
-            <span id="timerArea"></span>
-        </header>
-
-        <section id="questionsContainer" class="hide">
-            <div id="question"></div>
-            <div id="answers" class="buttonArea"></div>
+      <header class="mainHeader">
+        <h1>Astronomy Quiz</h1>
+        <section class="scores">
+          <div id="scoreArea" class="hide"></div>
         </section>
-        
-        <section class="controls">
-            <button class="start" id="startButton">START</button>
-            <button class="btn" id="showScoresButton">See High Scores</button>
-        <br />
-        
-        <div id="scoreArea" class="hide">
-            <span id="scoreDisplay"></span>
-            <input type="text" name="initials" id="initials" placeholder="enter name..." />
-            <button id="submitScore" class="submit">Submit Score</button>
-        </div>
+        <span id="timerArea"></span>
+      </header>
 
+      <section id="questionsContainer" class="hide">
+        <div id="question"></div>
+        <div id="answers" class="buttonArea"></div>
+      </section>
+
+      <section class="controls">
+        <button class="start" id="startButton">START</button>
+        <button class="btn" id="showScoresButton">See High Scores</button>
+        <br />
+
+        <div id="scoreArea" class="hide">
+          <span id="scoreDisplay"></span>
+        </div>
       </section>
     </main>
-    
+
     <script src="index.js"></script>
   </body>
 </html>

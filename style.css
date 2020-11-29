@@ -1,6 +1,45 @@
 body {
     display: block;
     text-align: center;
+    background: url(./images/space.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
 }
+
+#question {
+    color: white;
+}
+
+#timerArea {
+    color: white;
+}
+
+#scoreArea {
+    color: white;
+}
+
+#scoreArea ul {
+    display: contents;
+}
+
+#init {
+    color: white;
+}
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    margin: 5px;
+}
+  
+button:hover {
+    background-color: #e7e7e7;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 
 
