@@ -25,6 +25,10 @@ Proceeds as follows:
 
 - When time runs out and/or all questions are answered, the user is presented with their final score and asked to enter their initials. Their final score and initials are then stored in `localStorage`.
 
+## License
+
+![License](https://img.shields.io/badge/License-Quiz-blue)
+
 # Info / Questions
 
 - [Github](https:/github.com/Duhhvonte)
