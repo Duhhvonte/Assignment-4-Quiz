@@ -29,7 +29,7 @@ Proceeds as follows:
 
 ![License](https://img.shields.io/badge/License-Quiz-blue)
 
-# Info / Questions
+## Info / Questions
 
 - [Github](https:/github.com/Duhhvonte)
 - devonte.letts@gmail.com
