@@ -2,7 +2,7 @@ body {
     display: block;
     text-align: center;
     background: url(./images/space.png);
-    background-size: 100%, 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
 }
