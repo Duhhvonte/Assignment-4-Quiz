@@ -1,6 +1,6 @@
 # Javascript Quiz
 
-https://duhhvonte.github.io/Javascript-Quiz/
+https://spacedel.github.io/Javascript-Quiz/
 
 ## Screenshot
 
@@ -33,5 +33,4 @@ Proceeds as follows:
 
 ## Info / Questions
 
-- [Github](https:/github.com/Duhhvonte)
-- devonte.letts@gmail.com
+- [Devonte Letts](https:/github.com/spacedel)
